@@ -625,12 +625,12 @@ public class TiketPesawat extends JFrame {
         JOptionPane.showMessageDialog(this,
         "Data Dilengkapi dahulu");
     } else {
-    int nfilm1 = Integer.parseInt(txtpswt1.getText());
-    int nfilm2 = Integer.parseInt(txtpswt2.getText());
-    int nfilm3 = Integer.parseInt(txtpswt3.getText());
-    int nfilm4 = Integer.parseInt(txtpswt4.getText());
-    int nTotal = (30000 * nfilm1)+
-        (35000 * nfilm2)+(35000 * nfilm3)+(35000 * nfilm4);
+    int npswt1 = Integer.parseInt(txtpswt1.getText());
+    int npswt2 = Integer.parseInt(txtpswt2.getText());
+    int npswt3 = Integer.parseInt(txtpswt3.getText());
+    int npswt4 = Integer.parseInt(txtpswt4.getText());
+    int nTotal = (30000 * npswt1)+
+        (35000 * npswt2)+(35000 * npswt3)+(35000 * npswt4);
         lblTotal.setText("Rp. "+nTotal);
     if (rdouangtunai.isSelected())
         lblCaraBayar.setText(rdouangtunai.getActionCommand());
